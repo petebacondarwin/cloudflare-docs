@@ -74,22 +74,26 @@ This is the full format of a C3 invocation alongside the possible CLI arguments:
 <Tabs> <TabItem label="npm">
 
 ```sh
-npm create cloudflare@latest [--] [<DIRECTORY>] [OPTIONS] [-- <NESTED ARGS...>]
+npm create cloudflare@latest -- --platform=pages [<DIRECTORY>] [OPTIONS] [-- <NESTED ARGS...>]
 ```
 
 </TabItem> <TabItem label="yarn">
 
 ```sh
-yarn create cloudflare [--] [<DIRECTORY>] [OPTIONS] [-- <NESTED ARGS...>]
+yarn create cloudflare --platform=pages [<DIRECTORY>] [OPTIONS] [-- <NESTED ARGS...>]
 ```
 
 </TabItem> <TabItem label="pnpm">
 
 ```sh
-pnpm create cloudflare@latest [--] [<DIRECTORY>] [OPTIONS] [-- <NESTED ARGS...>]
+pnpm create cloudflare@latest --platform=pages [<DIRECTORY>] [OPTIONS] [-- <NESTED ARGS...>]
 ```
 
 </TabItem> </Tabs>
+
+:::note
+To create a Pages project you must now specify the `--platform=pages` arg, otherwise C3 will always create a Workers project.
+:::
 
 - `DIRECTORY` <Type text="string" /> <MetaInfo text="optional" />
 
