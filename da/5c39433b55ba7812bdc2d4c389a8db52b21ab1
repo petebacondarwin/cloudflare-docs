@@ -1,0 +1,19 @@
+src/content/docs/agents/examples/browser-agent.mdx
+  s_12caaa3d9cc1e9::t_ca942c445489f5 295
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "da5c39433b55ba7812bdc2d4c389a8db52b21ab1",
+  "prompts": {},
+  "sessions": {
+    "s_12caaa3d9cc1e9": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a082c7-f8d3-7582-95b7-c898f6faa40b",
+        "model": "unknown"
+      },
+      "human_author": "Pete Bacon Darwin <pbacondarwin@cloudflare.com>"
+    }
+  }
+}
