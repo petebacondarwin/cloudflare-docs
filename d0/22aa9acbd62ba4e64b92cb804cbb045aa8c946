@@ -1,0 +1,41 @@
+src/content/docs/agents/examples/browser-agent.mdx
+  s_c4998bd3646592::t_a1553f47095c62 14,291-292,295-296
+src/content/docs/dynamic-workers/examples/dynamic-workers-playground.mdx
+  s_c4998bd3646592::t_8eee9e2292164f 15,112-113
+src/content/docs/dynamic-workers/examples/dynamic-workers-starter.mdx
+  s_c4998bd3646592::t_e55693c9d5da76 14,78-79
+src/content/docs/workers/local-development/index.mdx
+  s_c4998bd3646592::t_6836be7eefdbb9 26,30-33
+src/content/docs/workers/local-development/local-dev-tunnels.mdx
+  s_c4998bd3646592::t_8821ad5f1df666 87-89,92,95,97
+src/content/docs/workers/reference/security-model.mdx
+  s_c4998bd3646592::t_b1a864bb291b5e 12-17
+src/content/docs/workers/runtime-apis/bindings/worker-loader.mdx
+  s_c4998bd3646592::t_daa6877f6bd324 10,18-19,31
+src/content/docs/workers/testing/index.mdx
+  s_c4998bd3646592::t_2003b4f9c18311 11-12,15-16
+src/content/docs/workers/testing/miniflare/index.mdx
+  s_c4998bd3646592::t_c741a068c111f2 14,16-17,21-24
+src/content/docs/workers/vite-plugin/index.mdx
+  s_c4998bd3646592::t_2f4fba33ad8795 11-12,14-16
+src/content/docs/workers/wrangler/commands/workers.mdx
+  s_c4998bd3646592::t_fc7e15d851158a 53-54,127
+src/content/partials/workers/local-development-security.mdx
+  s_c4998bd3646592::t_70a8fd4c242df4 1-13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "d022aa9acbd62ba4e64b92cb804cbb045aa8c946",
+  "prompts": {},
+  "sessions": {
+    "s_c4998bd3646592": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a08187-0a55-72c3-97af-19149ab56890",
+        "model": "unknown"
+      },
+      "human_author": "Pete Bacon Darwin <pbacondarwin@cloudflare.com>"
+    }
+  }
+}
